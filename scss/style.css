@@ -1,0 +1,732 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: #E2DADA;
+  height: 685px;
+}
+
+header .navbar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+      grid-template-columns: 20% 60% 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header .navbar .logo {
+  font-size: 30px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+header .navbar .menu-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #3A3A3A;
+  padding: 5px 30px;
+}
+
+header .navbar .icons a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header .navbar .icons a img {
+  width: 25px;
+  height: 25px;
+  margin-right: 40px;
+}
+
+header section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+      grid-template-columns: 60% 40%;
+}
+
+header section .text-content {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 60px 0px 0px 180px;
+}
+
+header section .text-content > h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+header section .text-content > h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 98px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+header section .text-content > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  width: 600px;
+  line-height: 37px;
+  color: #000000;
+}
+
+header section .text-content .btn {
+  margin-top: 35px;
+  padding: 16px 42px;
+  background: #FF5E5E;
+  width: 180px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header section .text-content .btn > p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+header section .img-content img {
+  position: absolute;
+  width: 520px;
+  height: 645px;
+  top: 40px;
+}
+
+main {
+  background-color: #FFFFFF;
+  width: 90%;
+  margin: 0px auto;
+}
+
+main .tips {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  gap: 2px 100px;
+}
+
+main .tips .tip-content {
+  margin-top: 100px;
+  text-align: center;
+}
+
+main .tips .tip-content > img {
+  width: 60px;
+  height: 60px;
+}
+
+main .tips .tip-content > h3 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px 0;
+  line-height: 29px;
+  color: #3A3A3A;
+  text-transform: uppercase;
+}
+
+main .tips .tip-content p {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+
+main .best-sellers {
+  width: 100%;
+  margin: 120px auto 0;
+}
+
+main .best-sellers .text-wrapper {
+  text-align: center;
+}
+
+main .best-sellers .text-wrapper > h3 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+main .best-sellers .text-wrapper > p {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+
+main .best-sellers .products {
+  margin-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2px 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .best-sellers .products .product-content .box {
+  width: 300px;
+  height: 379px;
+  background: #E7E7E7;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+main .best-sellers .products .product-content .box > img {
+  width: 200px;
+  height: 220px;
+}
+
+main .best-sellers .products .product-content .text-center {
+  text-align: center;
+}
+
+main .best-sellers .products .product-content .text-center > p:first-child {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  color: #3A3A3A;
+  text-transform: capitalize;
+}
+
+main .best-sellers .products .product-content .text-center > p:not(:first-child) {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+main .best-sellers .products .product-content .text-center > p:not(:first-child) span:first-child {
+  text-decoration: line-through;
+  color: #B9B9B9;
+  margin-right: 10px;
+}
+
+main .best-sellers .products .product-content .text-center > p:not(:first-child) span:not(:first-child) {
+  color: #FF5E5E;
+}
+
+main .best-sellers .products .product-content .text-center a {
+  background: #FFFFFF;
+  text-decoration: none;
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  border: 1px solid #FF5E5E;
+  line-height: 23px;
+  color: #FF5E5E;
+  padding: 8px 35px;
+  text-transform: capitalize;
+}
+
+main .best-sellers .products .product-content .text-center a.active {
+  background-color: #FF5E5E;
+  color: #FFFFFF;
+}
+
+main .product-display {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px 25px;
+}
+
+main .product-display .box-img-1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 2fr 1fr;
+      grid-template-rows: 2fr 1fr;
+  gap: 25px 0;
+}
+
+main .product-display .box-img-1 .first-box {
+  width: 410px;
+  background: #E7E7E7;
+  position: relative;
+}
+
+main .product-display .box-img-1 .first-box p {
+  position: absolute;
+  left: 20px;
+  top: 80px;
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+main .product-display .box-img-1 .first-box img {
+  width: 280px;
+  height: 415px;
+  position: absolute;
+  top: 0;
+  left: 130px;
+}
+
+main .product-display .box-img-1 .second-box {
+  width: 410px;
+  background: #E7E7E7;
+  position: relative;
+}
+
+main .product-display .box-img-1 .second-box div {
+  position: absolute;
+  top: 130px;
+  left: 20px;
+}
+
+main .product-display .box-img-1 .second-box img {
+  width: 224px;
+  height: 145px;
+  position: absolute;
+  top: 0;
+  left: 160px;
+}
+
+main .product-display .third-box {
+  width: 410px;
+  height: 650px;
+  background: #E7E7E7;
+  position: relative;
+}
+
+main .product-display .third-box div {
+  z-index: 2;
+  position: absolute;
+  top: 320px;
+  left: 60px;
+  text-align: center;
+}
+
+main .product-display .third-box div p {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+main .product-display .third-box div a {
+  text-decoration: none;
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  background: #FF5E5E;
+  padding: 10px 30px;
+  text-transform: uppercase;
+}
+
+main .product-display .third-box img {
+  width: 321px;
+  height: 584px;
+  position: absolute;
+  top: 65px;
+}
+
+main .product-display .box-img-2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 2fr;
+      grid-template-rows: 1fr 2fr;
+  gap: 25px 0;
+}
+
+main .product-display .box-img-2 .first-box {
+  width: 410px;
+  background: #E7E7E7;
+  position: relative;
+}
+
+main .product-display .box-img-2 .first-box div {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+
+main .product-display .box-img-2 .first-box img {
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  width: 169px;
+  height: 163px;
+}
+
+main .product-display .box-img-2 .second-box {
+  width: 410px;
+  background: #E7E7E7;
+  position: relative;
+}
+
+main .product-display .box-img-2 .second-box div {
+  position: absolute;
+  top: 320px;
+  left: 300px;
+}
+
+main .product-display .box-img-2 .second-box img {
+  position: absolute;
+  width: 369px;
+  height: 415px;
+  top: 0;
+}
+
+/* section containing information about giveaway */
+section.giveaway-container {
+  background-color: #E2DADA;
+  height: 480px;
+}
+
+section.giveaway-container .giveaway-content {
+  width: 95%;
+  margin: 100px auto 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+section.giveaway-container .giveaway-content div:first-child img {
+  position: absolute;
+  width: 445px;
+  height: 480px;
+}
+
+section.giveaway-container .giveaway-content div:not(:first-child) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 125px;
+  left: 600px;
+}
+
+section.giveaway-container .giveaway-content div:not(:first-child) h1 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 94px;
+  color: #000000;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+section.giveaway-container .giveaway-content div:not(:first-child) p {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: right;
+  color: #3A3A3A;
+  margin: 30px 0 35px 0;
+}
+
+section.giveaway-container .giveaway-content div:not(:first-child) a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+section.giveaway-container .giveaway-content div:not(:first-child) a span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 15px 35px;
+  -webkit-box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
+  background-color: #FF5E5E;
+}
+
+/* section for testimony and email sign up */
+section.testimony-and-subscribe {
+  margin-top: 120px;
+}
+
+section.testimony-and-subscribe > h2 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+section.testimony-and-subscribe .testimony {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  gap: 0 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+section.testimony-and-subscribe .testimony .testimony-box {
+  width: 410px;
+  height: 350px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 20px;
+}
+
+section.testimony-and-subscribe .testimony .testimony-box > img {
+  width: 80px;
+  height: 80px;
+}
+
+section.testimony-and-subscribe .testimony .testimony-box .text-3 {
+  margin-top: 10px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+section.testimony-and-subscribe .testimony .testimony-box .text-4 {
+  margin-top: 10px;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(58, 58, 58, 0.5);
+}
+
+section.testimony-and-subscribe .testimony .testimony-box .text-4 span {
+  font-size: 30px;
+  color: #000000;
+}
+
+section.testimony-and-subscribe .subscribe {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  gap: 0 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 85%;
+  margin: 120px auto 0;
+}
+
+section.testimony-and-subscribe .subscribe .subscribe-content > h2 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+section.testimony-and-subscribe .subscribe .subscribe-content > p {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+}
+
+section.testimony-and-subscribe .subscribe .subscribe-content form input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #FFFFFF;
+  background-image: url("../images/left-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 97% 10px;
+  border: 1px solid rgba(255, 94, 94, 0.5);
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: #E7E7E7;
+}
+
+footer .footer-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0 120px;
+  width: 85%;
+  margin: 150px auto 0 auto;
+}
+
+footer .footer-container .footer-content {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+footer .footer-container .footer-content > h3 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+footer .footer-container .footer-content > a {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 37px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+footer .footer-container .footer-content a > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+/* key text*/
+.text-1 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.text-2 {
+  font-family: Droid Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */
