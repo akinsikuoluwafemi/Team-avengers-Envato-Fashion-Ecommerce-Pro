@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/intlTelInput.css">
+    <script src="../js/intlTelInput.min.js"></script>
+</head>
+<style>
+
+</style>
+
+<body>
+
+    <div class="headerM">
+        <div class="headerMm">
+            <div class="logo">ZURI</div>
+            <div class="linksMm">
+                <div class="linksM">
+                    <a href="!#">HOME</a>
+                    <a href="!#">SHOP</a>
+                    <a href="!#">PRODUCTS</a>
+                    <a href="!#">ABOUT US</a>
+                </div>
+                <div class="icnsM">
+                    <img src="../img/search.png" alt="search">
+                    <img src="../img/profile.png" alt="profile">
+                    <img src="../img/cart.png" alt="basket">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="content">
+        <div class="create_account">Create Account</div>
+        <div class="fillBody">
+            <div>
+
+                <form action="" class="formFill" method="get" name="enquiry">
+                    <!-- <label for="fname">First Name:</label> -->
+                    <input type="text" placeholder="First Name" id="fname">
+
+                    <!-- <label for="lname">Last Name:</label> -->
+                    <input type="text" placeholder="Last Name" id="lname">
+                    <br>
+                    <!-- <label for="uemail">Email</label> -->
+                    <input type="text" placeholder="E-Mail" id="uemail" name="usermail">
+                    <!-- <label for="pass">Password</label> -->
+                    <input type="password" placeholder="Password" id="pass">
+                    <br>
+                    <!-- <label for="city">Phone Number</label> -->
+                    <input type="tel" placeholder="Phone Number" id="phone"><br>
+                    <!-- <input type="phonenumber" placeholder="Phone Number" id="phoneNumber">  -->
+
+            </div>
+            <div class="newsL"> <input type="checkbox" checked><span class="checkmark"></span>
+                <p> I want to receive Zuri Newsletters with best deals
+                    and offers</p>
+            </div>
+            </form>
+
+            <button class="signup_button">Sign Up</button>
+            <div class="hrOr">
+                <hr>
+                <p>OR</p>
+                <hr>
+            </div>
+            <br>
+            <button class="signup_google"><img class="google_png" src="../img/google.png" alt="google logo">
+                <a href="!#">
+                    Sign Up with
+                    Google</a></button>
+
+        </div>
+        <div class="have_account">
+            <p>Already have an account? <a href="!#">Login</a> </p>
+        </div>
+        <footer>
+            INSERT FOOTER HERE
+        </footer>
+    </div>
+    <script>
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, {
+            initialCountry: 'gh',
+            separateDialCode: true
+        });
+    </script>
+</body>
+
+</html>

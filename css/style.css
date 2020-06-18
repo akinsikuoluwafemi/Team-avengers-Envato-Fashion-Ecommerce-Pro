@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.content {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/background.png) no-repeat;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 1024px;
+}
+
+.formFill input:not(:last-child),
+input#phone {
+  width: 480px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  margin: 0 25px 25px 0 !important;
+  border-color: transparent;
+}
+
+::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 24px;
+}
+input {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+.iti__selected-dial-code {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px 2px;
+}
+
+.iti__selected-flag {
+  margin-left: 0;
+}
+.create_account {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 59px;
+  padding-top: 114px;
+}
+
+.signup_button,
+.signup_google {
+  width: 1000px;
+  height: 64px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #ffffff;
+  background: #ff5e5e;
+  border-radius: 5px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.signup_google {
+  background: #4c8bf5;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.signup_google a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 348px;
+  padding-top: 16px;
+}
+
+img.google_png {
+  height: 47px;
+  background: oldlace;
+  margin-top: 5px;
+}
+
+ul#iti-0__country-listbox {
+  background: #613e3e;
+  border-radius: 5px;
+}
+
+.iti__selected-flag {
+  padding-left: 15px !important;
+}
+
+input[type="checkbox"] {
+  height: 35px;
+  width: 35px;
+}
+
+.newsL {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  height: 35px;
+  font-size: 20px;
+  font-style: normal;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.newsL p {
+  margin: 0;
+  align-self: center;
+  padding-left: 32px;
+}
+
+.have_account {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.have_account a {
+  color: #ff5e5e;
+  text-decoration: none;
+}
+
+#pass {
+  background: #ffffff40, url(/img/group.png) no-repeat;
+}
+
+.iti__country-list {
+  width: 479px;
+}
+
+.hrOr {
+  display: flex;
+  flex-direction: row;
+  margin: 45px 34px 45px 0;
+}
+
+.hrOr hr {
+  border: 1px solid #ffffff;
+  width: 100%;
+  height: 0px;
+  align-self: center;
+  margin: 10.41px;
+}
+
+.hrOr p {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 0;
+}
+
+.have_account p {
+  text-align: center;
+}
+
+.fillBody {
+  width: 1031px;
+  margin: auto;
+}
+
+.headerM {
+  width: 100%;
+  background: #e7e7e7;
+  height: 150px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+.logo {
+  height: 48px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  flex-grow: 1;
+}
+
+footer {
+  height: 250px;
+  width: 100%;
+  background: #e7e7e7;
+  text-align: center;
+  position: absolute;
+}
+
+.linksMm {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  height: 24px;
+  margin: auto;
+}
+
+.icnsM {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 12px;
+}
+
+.linksM {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.linksM a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+
+  color: #000000;
+}
+
+.headerMm {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 102px;
+  padding-top: 51px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/* The newsL */
+.newsL {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.newsL input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 35px;
+  width: 35px;
+  background-color: #eee;
+}
+
+/* When the checkbox is checked, add a blue background */
+.newsL input:checked ~ .checkmark {
+  background-color: red;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.newsL input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.newsL .checkmark:after {
+  left: 14px;
+  top: 9px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
