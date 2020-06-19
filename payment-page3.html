@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="paymentPage.css">
+</head>
+<body>
+    <main id="payment">
+        <section>
+            <div class="navbar navbar-expand pt-5 justify-content-center">
+                <div class="row ">
+                    <div class="col-12 ml-auto mr-auto">
+                        <ul class="navbar-nav text-center justify-content-center">
+                            <li class="border-bottom-light ">
+                                <a href="payment-page1.html">
+                                    <p class="first-para num-light">1</p>
+                                    <p class="second-para2 mb-4"> MY ORDER </p>    
+                                </a>
+                            </li>
+                            <li class="border-bottom-light">
+                                <a href="payment-page2.html">
+                                    <p class="first-para num-light"> 2 </p>
+                                    <p class="second-para2 mb-4"> SHIPPING INFO </p>    
+                                </a>
+                            </li>
+                            <li class=" border-bottom-dark">
+                                <a href="payment-page3.html">
+                                    <p class="num-dark"> 3 </p>
+                                    <p class="second-para mb-4"> TAKE PAYMENT </p>    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container pt-5 text-left">
+                <div class="ml-5 pl-5 mr-5 mb-5">
+                    <h4>Payment Selection</h4>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <div>
+                            <form action="" method="POST">
+                                <div class="card p-5">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label class="custom-control custom-radio ">
+                                                    <input type="radio" name="myfilter_radio" checked="" class=" red-circle custom-control-input">
+                                                    <div class="custom-control-label text-bold pb-0 mb-0">Credit Card 
+                                                        <span class="float-right">
+                                                            <img src="plugins/Assets/cards.png" class="icon-img" alt="credit cards images">
+                                                        </span>
+                                                    </div>
+                                                </label> 
+                                            </div> 
+                                            <p class="pay-para">Safe money transfer using your bank account. Visa, Maestro, Discover, American Express.</p>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="cardNumber">Card Number</label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control" name="">
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text img-span btn">
+                                                        <img src="plugins/Assets/card_icon.png" alt="card icon" class="icon-img2">
+                                                    </span>
+                                                </div>
+                                            </div>                                        
+                                         </div>
+                                        <div class="col-md-6">
+                                             <label for="cardName">Name on Card</label>
+                                             <input type="text" name="" id="" class="form-control">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                     <label for="date">Expiry Date</label>
+                                                     <input type="text" name="" id="" placeholder="MM/YY" class="form-control">
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <label for="cardNumber">CVV Code</label>
+                                                    <div class="input-group">
+                                                        <input type="number" class="form-control" name="">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text img-span btn">
+                                                                <img src="plugins/Assets/info (1).png" alt="card icon" class="icon-img2">
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card p-5 mt-5">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label class="custom-control custom-radio ">
+                                                        <input type="radio" name="myfilter_radio" class=" red-circle custom-control-input">
+                                                        <div class="custom-control-label text-bold">Paystack 
+                                                            <span class="float-right">
+                                                                <img src="plugins/Assets/paystack.png" class="icon-img2" alt="credit cards images">
+                                                            </span>
+                                                        </div>
+                                                    </label> 
+                                                </div> 
+                                                <p class="pay-para">You will be directed to Paystack website to complete your purchase securely.</p>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mb-5 mt-5">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="" class="arrow-light">
+                            <i class="fa fa-arrow-left icon-light"></i> Return to Shop
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-right">
+                            <a href="payment-page2.html" class="btn btn-danger continue-btn pr-4 pl-4">CONTINUE TO SHIPPING</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+    </main>
+
+    <script src="plugins/bootstrap/js/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="paymentPage.js"></script>
+</body>
+</html>

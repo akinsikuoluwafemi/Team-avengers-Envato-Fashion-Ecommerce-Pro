@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+/* #payment .navbar-nav li .first-para::after{
+    content: "........................................................";
+    position: absolute;
+    bottom: 5rem;
+    left: 31rem;
+    color: #ccc;
+    z-index: 999;
+} */
+.first-para{
+    background-color: white;
+}
+#payment .navbar a:hover{
+    text-decoration: none;
+}
+#payment .num-dark{
+    display: inline-block;
+    border-radius: 50%;
+    border: .05rem solid #333;
+    color: #333;
+    font-size: .9rem;
+    font-weight: 600;
+    padding: .3rem .8rem .3rem .8rem;    
+    background: white;
+    z-index: 3;
+    position: relative;
+}
+#payment .num-light{
+    display: inline-block;
+    border-radius: 50%;
+    border: .05rem solid #ddd;
+    color: #ddd;
+    padding: .3rem .8rem .3rem .8rem;    
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+#payment .second-para{
+    font-weight: 600;
+    font-size: .9rem;
+    color: #333;
+}
+#payment .second-para2{
+    color: #ddd;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.border-bottom-light {
+    border-bottom: .05rem solid #ddd;
+    width: 15em;
+}
+.border-bottom-dark {
+    border-bottom: .05rem solid #333;
+    width: 15em;
+}
+.payment-icon{
+    font-weight: 100;
+}
+.product-box{
+    border-top: .05rem solid #ddd;
+    border-bottom: .05rem solid #ddd;
+    padding: 1.5rem 0;
+}
+.product-description{
+    font-weight: 600;
+}
+.product-img {
+    width: 5rem;
+    height: 5rem;
+}
+#output , #output1{
+    margin: 0 .5rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+#increment , #decrement ,#increment1 , #decrement1 {
+    color: red;
+    cursor: pointer;
+    border: .05rem solid red;
+    padding: .1rem .7rem .3rem .7rem;
+    font-size: 1.9rem;
+    border-radius: .5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.payment-amount {
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.x{
+    font-weight: 300;
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.voucher-box {
+    border: .05rem solid red;
+    border-radius: 2rem;
+    padding: .8rem .5rem .9rem .5rem;
+    /* margin: 3rem 0 0 3rem; */
+    width: 16rem;
+}
+.border-right-light {
+    margin-right: 1rem;
+    font-size: .8rem;
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.voucher-container{
+    padding: 0 0 0 3rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+.apply {
+    font-size: .8rem;
+    color: #ccc;
+    font-weight: 600;
+    transition: .5s;
+    border-left: .05rem solid #ccc;
+    padding: .8rem 0rem .9rem 1.5rem;
+    border-radius: 2rem;
+}
+.apply:hover {
+    color: #bbb;
+    text-decoration: none;
+}
+
+
+
+
+.amount-box{
+    text-align: right;
+}
+.total {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.cost {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    letter-spacing: .05rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.arrow-light {
+    color: #ccc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: .5rem;
+    transition: .5s;
+}
+.arrow-light:hover{
+    text-decoration: none;
+    color: #aaa;
+}
+.icon-light{
+    /* background: #ccc; */
+    color: #ccc;
+}
+.continue-btn{
+    font-size: .8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+/*======================================Shipping Page========================================*/
+#payment label {
+    color: #aaa;
+    font-size: .9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#payment input , #payment select {
+    height: 3rem;
+    color: #555;
+}
+#payment input:focus{
+    box-shadow: none;
+    /* border: .05rem solid #ccc; */
+}
+.red-circle {
+    background-color: red;
+    color: red;
+}
+.next-btn{
+    font-size: .8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 10rem;
+}
+.find {
+    color: red;
+    font-size: .8rem;
+    padding: 0 1.3rem;
+    transition: .5s;
+    background: white;
+    cursor: pointer;
+}
+.find:hover {
+    color: rgb(212, 19, 19);
+}
+.custom-control-label {
+    font-size: 1rem;
+font-weight: 400;
+text-transform: capitalize;
+}
+.text-bold {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*------------------------------Take Payment Page--------------------------------------*/
+
+.icon-img {
+    width: 5rem;
+}
+.icon-img2 {
+    width: 2rem;
+}
+#payment .img-span {
+    border-left: none;
+    background: white;
+}
+.pay-para {
+    color: #aaa;
+    margin-top: 0;
+    width: 69%;
+}
+
+
+
+
+
+/*=======================================Media Queries======================*/
+
+@media(max-width:767px){
+    .border-bottom-light {
+        width: 10em;
+    }
+    .border-bottom-dark {
+        width: 10em;
+    }
+    .voucher-container {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+}
+
+@media(max-width:492px){
+    .border-bottom-light {
+        width: 80%;
+    }
+    .border-bottom-dark {
+        width: 80%;
+    }
+    #payment .second-para{
+        font-size: .7rem;
+    }
+    #payment .second-para2{
+        font-size: .7rem;
+    } 
+    #increment , #decrement , #increment1 , #decrement1{
+        padding: .1rem .5rem .3rem .5rem;
+        font-size: 1.3rem;
+        border-radius: .4rem;
+    } 
+    .payment-amount {
+        font-size: 1.2rem;
+        letter-spacing: 0;
+
+    }  
+    .x{
+        font-size: 1.2rem;
+    } 
+    #output , #output1{
+        margin: 0 .2rem;
+        font-size: 1rem;
+    }
+    .icon-img {
+        width: 4rem;
+    }
+    
+}
+
+
+
+
