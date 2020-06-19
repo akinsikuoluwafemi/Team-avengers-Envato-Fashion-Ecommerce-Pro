@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="paymentPage.css">
+</head>
+<body>
+    <main id="payment">
+        <section>
+            <div class="navbar navbar-expand pt-5 justify-content-center">
+                <div class="row ">
+                    <div class="col-12 ml-auto mr-auto">
+                        <ul class="navbar-nav text-center justify-content-center">
+                            <li class="border-bottom-dark ">
+                                <a href="payment-page1.html" class="">
+                                    <p class="first-para num-dark">1</p>
+                                    <p class="second-para mb-4"> MY ORDER </p>
+                                </a>
+                            </li>
+                            <li class="border-bottom-light">
+                                <a href="payment-page2.html" class="">
+                                    <p class="first-para num-light"> 2 </p>
+                                    <p class="second-para2 mb-4"> SHIPPING INFO </p>    
+                                </a>
+                            </li>
+                            <li class=" border-bottom-light">
+                                <a href="payment-page3.html">
+                                    <p class="num-light"> 3 </p>
+                                    <p class="second-para2 mb-4"> TAKE PAYMENT </p>    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container pt-5 text-left">
+                <div class="ml-5 mr-5 mb-5">
+                    <h4>My Order</h4>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container pl-5 pr-5">
+                <div class="product-box ">
+                    <div class="row">
+                        <div class="col-md-6 d-flex">
+                                <img src="plugins/Assets/Bag.png" alt="Image of a bag" class=" product-img float-right">
+                                <span class="pt-3">
+                                    <h5 class="text-muted"> Lightweight College Backpack</h5>
+                                    <p class="product-description">Black, Strapped</p>    
+                                </span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-6 pt-3">
+                                    <p> <span id="decrement">-</span> <span id="output">1</span> <span id="increment">+</span> 
+                                    </p>
+                                </div>
+                                <div class="col-6  pt-3">
+                                    <p class="payment-amount"> &#8358;100,000
+                                        <span class="float-right">
+                                            X
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+    
+                <div class="product-box mb-3">
+                    <div class="row">
+                        <div class="col-md-6 d-flex">
+                            <img src="plugins/Assets/Watch.png" alt="Image of a watch" class=" product-img float-right">
+                            <span class="pt-3">
+                                <h5 class="text-muted"> Business Casual Leather Watch Waterproof</h5>
+                                <p class="product-description">Brown, Leather</p>    
+                            </span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-6 pt-3">
+                                    <p> <span id="decrement1">-</span> <span id="output1">1</span> <span id="increment1">+</span> 
+                                    </p>
+                                </div>
+                                <div class="col-6  pt-3">
+                                    <p class="payment-amount"> &#8358;60,000
+                                        <span class="float-right">
+                                            X
+                                        </span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container">
+                <div class="voucher-container">
+                    <div class="">
+                        <div class="voucher-box">
+                            <p class="mb-0">
+                                <span class="border-right-light">
+                                    Have a Voucher?
+                                </span>
+                                <span class="text-right">
+                                    <a href="#" class="apply">APPLY</a>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container">
+                <div class="amount-box">
+                    <p>
+                        <span class="pr-3 total">
+                            Total:
+                        </span>
+                        <span class="ml-5 cost">
+                            &#8358; 169,000
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container mb-5 mt-5">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="" class="arrow-light">
+                            <i class="fa fa-arrow-left icon-light"></i> Return to Shop
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <div class="text-right">
+                            <a href="payment-page2.html" class="btn btn-danger continue-btn pr-4 pl-4 ">CONTINUE TO SHIPPING</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+    </main>
+
+
+    <script src="plugins/bootstrap/js/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="paymentPage.js"></script>
+</body>
+</html>
