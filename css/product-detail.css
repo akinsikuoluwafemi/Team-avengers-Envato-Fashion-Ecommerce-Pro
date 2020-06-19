@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.fa{
+    padding: 3px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.checked{
+    color: #F3DC09;
+}
+.ext{
+    font-size: 16px;
+    font-weight: bold;
+}
+.review{
+    padding-left: 1%;
+    font-weight: bold;
+
+}
+
+.price{
+    text-decoration: line-through;
+    color: #E2E2E2;
+    font-weight: bold;
+}
+.price2{
+    color:#FF5E5E ;
+    font-weight: bold;
+    padding-left: 1%;
+}
+.heading2{
+    padding-top: 6%;
+    font-size: 35px;
+    font-weight: bold;
+}
+.heading3{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 4%;
+}
+.btnn{
+    background-color: #FF5E5E;
+    width: 250px;
+    color: white;
+    padding: 1%;
+    margin-top: 3%;
+}
+.but{
+    border: 1px solid #E2E2E2;
+    padding: 1% 2%;
+}
+.but:hover{
+    background-color: #E2E2E2;
+
+}
+.subhead, .subhead2{
+    font-size: 18px;
+    padding-top: 2%;
+}
+.list{
+    padding-top: 1%;
+}
+.head{
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+.extra{
+    font-weight: bold;
+}
+.trouser{
+    width: 75%;
+    padding-top: 13%;
+    height: 480px;
+}
+.text{
+    padding-left:20% ;
+}
+.tex{
+    margin-left:20% ;
+    padding-right: 2%;
+}
+@media screen and (max-width: 425px) {
+.heading2{
+    font-size: 25px;
+}
+.head{
+    font-size: 30px;
+}
+.heading3{
+    font-size: 18px;
+}
+.list{
+    font-size: 12px;
+}
+.subhead, .subhead2{
+    font-size: 13px;
+}
+.btnn{
+    width: 180px;
+}
+.trouser{
+    width: 100%;
+}
+.fa{
+    font-size: 15px;
+}
+.text{
+    font-size: 10px;
+    padding-left: 18%;
+}
+.trouser{
+    height: 350px;
+}
+}
+@media screen and (max-width: 375px) {
+    .but{
+        width: 20px;
+        padding: 1%;
+    }
+    .fa{
+        font-size: 11px;
+        padding: 1px;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .heading2{
+        font-size: 20px;
+    }
+    .heading2{
+        font-size: 22px;
+    }
+    .heading3{
+        font-size: 15px;
+    }
+    .fa{
+        font-size: 11px;
+        padding: 1px;
+    }
+    .review{
+        font-size: 10px;
+    }
+    .price, .price2{
+        font-size: 12px;
+    }
+    .subhead, .subhead2{
+        font-size: 10px;
+    }
+    .but{
+        width: 20px;
+        padding: 1%;
+    }
+    .text{
+        font-size: 8px;
+        padding-left: 18%;
+    }
+    .btnn{
+        width: 150px;
+    }
+
+}
